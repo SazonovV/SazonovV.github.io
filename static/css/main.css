@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body
+{
+	background-color: #f2f2f2;
+	font-weight: 300;
+	color: #555;
+	font-family: "Lato", sans-serif;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+
+	margin-top: 65px;
+}
+
+a {
+	font-size: 1,15rem;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	outline: 0;
+	color: #77ca90;
+}
+
+.centered {
+	text-align: center;
+}
+.line
+{
+	border-bottom: 1px solid #e3e3e3;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+.about-title {
+	float: left;
+	margin-right: 10px;
+
+}
+
+.about-info
+{
+	padding: 2px 0;
+	margin: 0.5rem;
+	opacity: 0.8;
+}
+
+.right_fix {
+	text-align: right;
+}
+
+
+
+.social-icon {
+		background: rgba(217, 217, 217, 0.2);
+    transition: all .3s ease;
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    float: left;
+
+}
+.vk {
+  background-image: url(../img/vk.png);
+}
+.vk:hover { 
+  background-color: #507299;
+}
+
+.telegram {
+	background-image: url(../img/telegram.png);
+}
+.telegram:hover {
+	background-color: #2ca5e0;
+}
+
+.github {	
+	background-image: url(../img/github-32.png);
+}
+.github:hover {
+	background-color: black;
+}
+
+.navbar-text {
+	float: left;
+}
