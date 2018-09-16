@@ -15,7 +15,7 @@ body
 }
 
 a {
-	font-size: 1,15rem;
+	font-size: 1.15rem;
 }
 
 a:hover, a:focus {
@@ -26,6 +26,24 @@ a:hover, a:focus {
 
 .navbar-brand {
 	font-size: 25px;
+}
+
+.link {
+	font-size: 1.15rem;
+	color: #fff;
+	transition: all .3s ease;
+	text-align: center;
+	padding: .5rem 1rem;
+	display: block;
+	margin-right: 10px;
+}
+
+.link: hover {
+	color: green;
+}
+
+.nav-link {
+	margin-right: 10px;
 }
 
 .centered {
