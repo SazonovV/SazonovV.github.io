@@ -217,3 +217,16 @@ textarea:focus, textaead:hover {
 	background-color: #3b9b41;
 	border: 1px solid #3b9b41;
 }
+
+.footer {
+	margin-top: 10px;
+	font-size: 0.8rem;
+	background-color: #efefef;
+	text-align: center;
+}
+
+.si {
+	max-width: 700px;
+	text-align: center;
+	cursor: pointer;
+}
