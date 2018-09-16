@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
 
 body
 {
@@ -21,7 +20,7 @@ a {
 a:hover, a:focus {
 	text-decoration: none;
 	outline: 0;
-	color: #77ca90;
+	color: #3b9b41;
 }
 
 .navbar-brand {
@@ -39,7 +38,7 @@ a:hover, a:focus {
 }
 
 .link: hover {
-	color: green;
+	color: #3b9b41;
 }
 
 .nav-link {
@@ -124,5 +123,16 @@ a:hover, a:focus {
 
 .point:after {
 	content: ".";
-	color: green;
+	color: #3b9b41;
+}
+
+.portfolio_img img{
+	height: auto;
+	width: 100%;
+	border-radius: 5px;
+	display: block;
+}
+
+.opacity-box {
+	font-style: italic;
 }
