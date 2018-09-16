@@ -71,20 +71,40 @@ a:hover, a:focus {
 	text-align: right;
 }
 
+.social_grid {
+	display: grid;
+	grid-template-columns: 5fr 1fr 5fr;
+	grid-template-areas: "bl contentS br";
+}
 
+.bl {
+	grid-area: bl;
+}
+
+.br {
+	grid-area: br;
+}
+
+.social_content {
+	grid-area: contentS;
+	min-width: 150px;
+}
+
+@media  (min-width: 991.98px) {
+	.social_grid {
+		display: block;
+	}
+}
 
 .social-icon {
 		background: rgba(217, 217, 217, 0.2);
     transition: all .3s ease;
-    display: inline-block;
     border-radius: 15px;
     position: relative;
     margin-right: 10px;
     height: 40px;
     width: 40px;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: inline-flex;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
