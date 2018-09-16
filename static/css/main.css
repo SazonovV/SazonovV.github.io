@@ -24,6 +24,10 @@ a:hover, a:focus {
 	color: #77ca90;
 }
 
+.navbar-brand {
+	font-size: 25px;
+}
+
 .centered {
 	text-align: center;
 }
@@ -58,7 +62,7 @@ a:hover, a:focus {
     display: inline-block;
     border-radius: 15px;
     position: relative;
-    margin-left: 10px;
+    margin-right: 10px;
     height: 40px;
     width: 40px;
     display: -webkit-flex;
@@ -98,4 +102,9 @@ a:hover, a:focus {
 
 .navbar-text {
 	float: left;
+}
+
+.point:after {
+	content: ".";
+	color: green;
 }
