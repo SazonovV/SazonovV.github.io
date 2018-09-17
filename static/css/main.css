@@ -160,6 +160,7 @@ a:hover, a:focus {
 .triangles {
 
 	float: right;
+	margin-left: 400px;
 }
 
 .triangles img {
@@ -216,6 +217,11 @@ textarea:focus, textaead:hover {
 .btn-dark:hover {
 	background-color: #3b9b41;
 	border: 1px solid #3b9b41;
+
+}
+
+.btn-dark {
+	float:right;
 }
 
 .footer {
@@ -230,3 +236,4 @@ textarea:focus, textaead:hover {
 	text-align: center;
 	cursor: pointer;
 }
+	
